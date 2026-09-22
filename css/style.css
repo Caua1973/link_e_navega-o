@@ -24,6 +24,13 @@ header {
     align-items: center;
     flex-wrap: wrap;
 }
+#artistas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
 h1 {
     font-size: 40px;
 }
@@ -74,6 +81,7 @@ main {
 
 .cards {
     width: 30%;
+    height: 600px;
     padding: 20px;
     margin: 10px;
     background-color: rgba(146, 146, 146, 0.762);
